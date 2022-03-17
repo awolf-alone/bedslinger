@@ -29,8 +29,8 @@ For myself, I am interested in quality and speed as target outcomes. As well as 
 - Raspberry Pi Camera V1.3
 - Mellow NF Crazy LF
 - Cable chain
-2GT idlers for belt tensioners
-Second Z motor and lead screw
-POM nut anti-backlash nuts
-Belted dual Z axis
-XL4016 DC-DC converter for Raspberry Pi
+- 2GT idlers for belt tensioners
+- Second Z motor and lead screw
+- POM nut anti-backlash nuts
+- Belted dual Z axis
+- XL4016 DC-DC converter for Raspberry Pi
