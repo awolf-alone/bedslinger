@@ -34,6 +34,7 @@ I will share Klipper config files shortly.
   - [UL1332 wire (24AWG, 20AWG, 18AWG)](https://www.aliexpress.com/item/1005001611628766.html)
   - Fused IEC input
   - XT60HF
+  - [PCB mounts](https://www.thingiverse.com/thing:2083883)
 - Raspberry Pi Camera V1.3 + [mount](https://www.thingiverse.com/thing:4566940)
 - Mellow NF Crazy LF
 - [Cable chain](https://www.aliexpress.com/item/33000014666.html)
