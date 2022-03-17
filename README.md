@@ -15,7 +15,7 @@ I will share Klipper config files shortly.
 - [Haldis Black Knight linear rail kit](https://www.banggood.com/Haldis-3D-Black-Knight-Ender-3-V2-or-Ender-3-Pro-3D-Printer-Upgraded-Timing-Belt-and-Screws-Kit-for-Genuine-with-or-without-Linear-Rail-p-1914748.html) + additional [Y axis MGN12](https://www.aliexpress.com/item/1000007480470.html) on [custom bed mount](https://www.thingiverse.com/thing:4627011)
 - [Triangle Labs DDE V6 direct drive](https://www.aliexpress.com/item/4000006762144.html)
 - [Klipper](https://www.klipper3d.org/) via [Mainsail](https://docs.mainsail.xyz/) on [Raspberry Pi 3B+](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/)
-- PEI magnetic build plate
+- PEI magnetic build plate and G10 build plate
 - [Silicone bed mounts](https://www.aliexpress.com/item/1005001823789355.html)
 - [AXDL245 accelerometer](https://www.aliexpress.com/item/32452794842.html)
 - [V slot covers](https://www.thingiverse.com/thing:4579489)
@@ -41,5 +41,15 @@ I will share Klipper config files shortly.
 - [2GT idlers](https://www.aliexpress.com/item/32726309946.html) for belt tensioners
 - [Second Z motor and lead screw](https://www.aliexpress.com/item/1005003150599924.html)
 - [POM nut anti-backlash nuts](https://www.aliexpress.com/item/1005001623816690.html)
-- [Belted dual Z axis](https://github.com/kevinakasam/BeltDrivenEnder3)
+- [Belt driven dual Z axis](https://github.com/kevinakasam/BeltDrivenEnder3)
 - XL4016 DC-DC converter for Raspberry Pi
+
+# Things I've tried and do not recommend:
+- Squash ball feet
+  - These are often recommended in Ender groups as a way to reduce noise of the printer. This may be so, but it negatively effects the resonance of the machine. I have     since removed these and advise placing your machine on a solid flat surface (currently using a thick foam tile ontop of a wooden table).
+- Noctura fans
+  - These are often recommended in Ender groups as a way to reduce noise of the printer. This may be so, but are not ideal for air flow on the hotend, even with custom     mounts. It is far easier to use a good 24V fan and remove the need for a DC-DC (buck) converter. If noise is a major problem, then perhaps this mod is for you. But     for propper cooling, do not use. For cooling other components such as the mainboard these would be sufficient.
+- Haldis Black Knight linear rail kit
+  - I have this installed and will keep it given it is quite expensive. I do think it is a nicely built kit, but if I had my time over, I would source the rails myself     and print the required mounts. I would seriously consider either a full [Switchwire conversion](https://github.com/boubounokefalos/Ender_SW) or [Belt driven Ender](https://github.com/kevinakasam/BeltDrivenEnder3) with rail modification.
+- Stock Ender 3 V2 glass build plate
+  - This is a nice surface to print on. However, it adds a lot of weight to the Y axis which negatively effects resonance of the machine. The bed slinging aspect of      these i3 style machines is one of the reasons they are falling out of favour for many 3D printing ethusiasts. To get the best from these machines, minimal weight is    ideal. Go with a PEI or G10 sheet instead.
