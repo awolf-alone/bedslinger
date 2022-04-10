@@ -12,37 +12,37 @@ Most parts have been sourced via [Aliexpress](https://www.aliexpress.com/) and m
 I will share Klipper config files shortly.
 
 # Current modifications:
-- [Haldis Black Knight linear rail kit](https://www.banggood.com/Haldis-3D-Black-Knight-Ender-3-V2-or-Ender-3-Pro-3D-Printer-Upgraded-Timing-Belt-and-Screws-Kit-for-Genuine-with-or-without-Linear-Rail-p-1914748.html) + additional [Y axis MGN12](https://www.aliexpress.com/item/1000007480470.html) on [custom bed mount](https://www.thingiverse.com/thing:4627011)
-- [Triangle Labs DDE V6 direct drive](https://www.aliexpress.com/item/4000006762144.html)
+- [SuperSlicer](https://github.com/supermerill/SuperSlicer)
+- [Haldis Black Knight linear rail kit](https://www.banggood.com/Haldis-3D-Black-Knight-Ender-3-V2-or-Ender-3-Pro-3D-Printer-Upgraded-Timing-Belt-and-Screws-Kit-for-Genuine-with-or-without-Linear-Rail-p-1914748.html) + additional [Y axis MGN12](https://www.aliexpress.com/item/1000007480470.html)(https://www.thingiverse.com/thing:4627011)
+- Y axis conversion/mounts from the [Ender Switchwire conversion project](https://github.com/boubounokefalos/Ender_SW)
+- ~~[Triangle Labs DDE V6 direct drive](https://www.aliexpress.com/item/4000006762144.html)~~
+- Pheatus Dragon SF hotend
+- LDO Sherpa Mini extruder with LDO-36STH17-1004AH(G8T) 
+- Modified Satsana mini duct - based on [this design](https://www.thingiverse.com/thing:5170276) which I modified to use thread inserts and adjust Sherpa Mini mounting location as the original design was too narrow
 - [Klipper](https://www.klipper3d.org/) via [Mainsail](https://docs.mainsail.xyz/) on [Raspberry Pi 3B+](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/)
+- [BTT SKR 2.0 mainboard with TMC2209](https://www.aliexpress.com/item/1005002399360105.html)
 - PEI magnetic build plate and G10 build plate
 - [Silicone bed mounts](https://www.aliexpress.com/item/1005001823789355.html)
 - [AXDL245 accelerometer](https://www.aliexpress.com/item/32452794842.html)
 - [V slot covers](https://www.thingiverse.com/thing:4579489)
 - eSun drybox with [hygrometer](https://www.thingiverse.com/thing:4650052)
-
-# Future modifications:
-- [Manta MK2](https://www.thingiverse.com/thing:4943125) fan shround ([2x 4010 fan](https://www.aliexpress.com/item/32798634077.html) [1x 3010 fan](https://www.aliexpress.com/item/4000990517858.html)
-  - [ADXL345 mount](https://www.thingiverse.com/thing:5029699)
-  - [MGN12 carriage mount](https://www.thingiverse.com/thing:5139694)
-- [BTT SKR 2.0 mainboard with TMC2209](https://www.aliexpress.com/item/1005002399360105.html)
-- [External electronics enclosure](https://www.thingiverse.com/thing:4615105) with the following:
-  - [Heatbed mosfet](https://www.aliexpress.com/item/32819689994.html)
-  - XL4015 DC-DC converter for Raspberry Pi
-- [External PSU enclosure](https://www.thingiverse.com/thing:4123532)
-- Rewire entire unit:
-  - [UL1332 wire (24AWG, 20AWG, 18AWG)](https://www.aliexpress.com/item/1005001611628766.html)
-  - Fused IEC input
-  - XT60HF
-  - [PCB mounts](https://www.thingiverse.com/thing:2083883)
-- Raspberry Pi Camera V1.3 + [mount](https://www.thingiverse.com/thing:4566940)
-- Mellow NF Crazy LF
-- [Cable chain](https://www.aliexpress.com/item/33000014666.html)
 - [2GT idlers](https://www.aliexpress.com/item/32726309946.html) for belt tensioners
 - [Second Z motor and lead screw](https://www.aliexpress.com/item/1005003150599924.html)
 - [POM nut anti-backlash nuts](https://www.aliexpress.com/item/1005001623816690.html)
+- Raspberry Pi Camera V1.3 + [mount](https://www.thingiverse.com/thing:4566940)
+- [External electronics enclosure](https://www.thingiverse.com/thing:4615105) with the following:
+  - [Heatbed mosfet](https://www.aliexpress.com/item/32819689994.html)
+  - Fused IEC input
+  - XT60HF
+  - [PCB mounts](https://www.thingiverse.com/thing:2083883)
+- [External PSU enclosure](https://www.thingiverse.com/thing:4123532) 
+# Future modifications:
+  - XL4015 or XL4016 DC-DC converter for Raspberry Pi
+- Rewire entire unit:
+  - [UL1332 wire (24AWG, 20AWG, 18AWG)](https://www.aliexpress.com/item/1005001611628766.html)
+- Mellow NF Crazy
+- [Cable chain](https://www.aliexpress.com/item/33000014666.html)
 - [Belt driven dual Z axis](https://github.com/kevinakasam/BeltDrivenEnder3)
-- XL4016 DC-DC converter for Raspberry Pi
 
 # Things I've tried and do not recommend:
 - Squash ball feet
