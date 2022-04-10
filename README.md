@@ -43,6 +43,7 @@ I will share Klipper config files shortly.
 - Mellow NF Crazy
 - [Cable chain](https://www.aliexpress.com/item/33000014666.html)
 - [Belt driven dual Z axis](https://github.com/kevinakasam/BeltDrivenEnder3)
+- [KlackEnder ABL probe mod](https://github.com/kevinakasam/KlackEnder-Probe)
 
 # Things I've tried and do not recommend:
 - Squash ball feet
